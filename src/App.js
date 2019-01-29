@@ -41,7 +41,7 @@ class App extends Component {
       <div className="App">
         <h1>My Tasks!</h1>
         <TaskList tasks={this.state.tasks} deleteTask={this.deleteTask}/>
-        <hr/>
+        <br/>
         <AddTask addTask={this.addTask}/>
       </div>
     );
